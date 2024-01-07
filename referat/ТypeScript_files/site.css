@@ -1,0 +1,90 @@
+body {
+  font-family: monospace;
+  margin-top: 0;
+}
+.main-heading {
+  text-align: center;
+  margin-top: 4rem;
+  color: #5ab6c7;
+  margin-left: 15%;
+}
+.secondary-heading {
+  text-align: center;
+  padding-bottom: 4rem;
+  margin-left: 15%;
+}
+
+.navbar {
+  margin-top: 0;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  position: fixed;
+  list-style-type: none;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  background-color: #5ab6c7;
+}
+
+.navbar-li {
+  display: block;
+}
+
+.navbar-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.9rem 1rem;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #1c6a78;
+}
+
+ul li a:visited{
+    color:white
+}
+
+h2 {
+  font-family: monospace;
+}
+
+.page-wrapper {
+  margin-left: 25%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section {
+  padding-bottom: 1rem;
+  text-align: justify;
+}
+
+.code-fragment {
+  color: white;
+  background-color: #1c6a78;
+}
+
+.sub-topic {
+  color: #1c6a78;
+  font-weight: bold;
+}
+
+a {
+  color: #5ab6c7;
+}
+
+a:visited {
+  color: #1c6a78;
+}
+
+.last-section{
+    text-align: left;
+}
