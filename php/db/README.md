@@ -2,7 +2,7 @@
 
 Checkout [this](https://webtech.w3c.fmi.uni-sofia.bg/w15labs/PHP-SQL.html?read=1#1). The name of the database is `wtech23` and you need to create it to begin.
 
-You would also need a `users` table created like this. The creation is included in the (index.php)['./index.php'], too. 
+You would also need a `users` table created like this. The creation is included in the (index.php)[index.php], too. 
 
 ```sql
 CREATE TABLE `users` (
